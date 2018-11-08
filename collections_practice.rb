@@ -56,8 +56,8 @@ end
 def add_s(array)
   new_array = []
   array.each_with_index do |word,index|
-    if index == 2 
-      binding.pry
+    if index == 2
+      then << word
     end 
   end
 end
