@@ -42,5 +42,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.any? 
+  array.select do {|a|}
 end
