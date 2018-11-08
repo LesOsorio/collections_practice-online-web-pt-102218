@@ -36,7 +36,6 @@ end
 
 def kesha_maker(array)
   array.map do |name|
-binding.pry
+    name[2] = "$"
   end
 end
-kesha_maker(names)
