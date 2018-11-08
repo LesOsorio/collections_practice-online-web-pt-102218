@@ -39,4 +39,4 @@ def kesha_maker(array)
 binding.pry
   end
 end
-kesha_maker(name)
+kesha_maker(names)
