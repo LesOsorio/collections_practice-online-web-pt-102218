@@ -43,5 +43,6 @@ end
 
 def find_a(array)
   array.include? do |a|
+    array
   end
-end 
+end
