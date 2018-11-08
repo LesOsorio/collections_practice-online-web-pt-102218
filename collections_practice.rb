@@ -28,4 +28,3 @@ def swap_elements(names)
   names[2] = hold_name
 end
 
-swap_elements_from_to(names)
