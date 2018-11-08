@@ -36,6 +36,6 @@ end
 
 def kesha_maker(array)
   array.map do |name|
-
+binding.pry
   end
 end 
