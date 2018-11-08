@@ -42,8 +42,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each do |a|
-    if array include?
-      return array
-  end
+  array.any? 
 end
