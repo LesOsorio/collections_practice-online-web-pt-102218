@@ -14,8 +14,8 @@ end
 
 animals = ["dogs","cat","Horses"]
 def sort_array_char_count(animals)
-  animals.sort do |a,b|
-    a <=> b
+  animals.sort do |a.,b|
+    a.length <=> b.length
   end
 end
 
