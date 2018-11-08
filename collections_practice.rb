@@ -26,4 +26,5 @@ def swap_elements(names)
   hold_name = names[1]
   names[1] = names[2]
   names[2] = hold_name
+  names
 end
