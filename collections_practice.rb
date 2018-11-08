@@ -14,12 +14,12 @@ end
 
 animals = ["dogs","cat","Horses"]
 def sort_array_char_count(animals)
-  animals.sort do |a,b|.length
+  animals.sort do |a,b|
     a <=> b
   end
 end
 
 names = ["blake","ashley","scott"]
 def swap_elements_from_to(names)
-  
+
 end
