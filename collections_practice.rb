@@ -42,6 +42,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select do { |fruit| fruit.start_with?("a") }
+  array.select { |fruit| fruit.start_with?("a") }
   end
 end
