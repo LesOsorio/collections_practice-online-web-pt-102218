@@ -50,5 +50,8 @@ def sum_array(array)
   array.each do |num|
     total += num
   end
-  total 
+  total
 end
+
+def add_s(array)
+end 
