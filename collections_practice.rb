@@ -23,7 +23,9 @@ end
 
 names = ["blake","ashley","scott"]
 def swap_elements_from_to(names)
-  binding.pry
+  hold_name = names[1]
+  names[1] = names[2]
+  names[2] = hold_name
 end
 
 swap_elements_from_to(names)
