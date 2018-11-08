@@ -58,7 +58,8 @@ def add_s(array)
   array.each_with_index do |word,index|
     if index == 2
       new_array << word
-    else 
+    else
+      word.concat("s")
     end
   end
 end
