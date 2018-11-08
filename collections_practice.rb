@@ -40,3 +40,8 @@ def kesha_maker(array)
     name
   end
 end
+
+def find_a(array)
+  array.any? do |a|
+  end
+end 
