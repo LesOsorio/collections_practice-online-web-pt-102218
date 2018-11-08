@@ -55,7 +55,7 @@ end
 
 def add_s(array)
   new_array = []
-  array.each do |word|
+  array.each_with_index do |word,index|
     binding.pry
-  end
+    end
 end
