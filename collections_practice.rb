@@ -43,5 +43,4 @@ end
 
 def find_a(array)
   array.select { |fruit| fruit.start_with?("a") }
-  end
 end
