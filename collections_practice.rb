@@ -32,4 +32,3 @@ end
 num = [12,4,35]
 def reverse_array(num)
 end 
-    
