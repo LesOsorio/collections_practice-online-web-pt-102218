@@ -7,6 +7,5 @@ end
 num = [25,7,14]
 def sort_array_desc(num)
   num.sort do |b,a|
-    b <=> a 
+    b <=> a
   end 
-  
