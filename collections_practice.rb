@@ -1,3 +1,5 @@
+require 'pry'
+
 num = [25,7,1]
 def sort_array_asc(num)
   num.sort do |a,b|
@@ -21,5 +23,5 @@ end
 
 names = ["blake","ashley","scott"]
 def swap_elements_from_to(names)
-
+  binding.pry
 end
