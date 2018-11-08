@@ -17,9 +17,9 @@ def sort_array_char_count(animals)
   animals.sort do |a,b|.length
     a <=> b
   end
-end 
+end
 
 names = ["blake","ashley","scott"]
 def swap_elements_from_to(names)
-  
-end 
+  names.sort 
+end
