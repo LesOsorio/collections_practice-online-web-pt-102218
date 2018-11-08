@@ -28,3 +28,8 @@ def swap_elements(names)
   names[2] = hold_name
   names
 end
+
+num = [12,4,35]
+def reverse_array(num)
+end 
+    
