@@ -46,5 +46,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  [11,4,7,8,9,100,134].sum
+  total = 
+  array.each do |num|
+
+  end
 end
