@@ -4,4 +4,9 @@ def sort_array_asc(num)
 a <=> b
 end
 
+num = [25,7,14]
 def sort_array_desc(num)
+  num.sort do |b,a|
+    b <=> a 
+  end 
+  
